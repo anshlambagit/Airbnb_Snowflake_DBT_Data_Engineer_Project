@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE HOST (
+CREATE OR REPLACE TABLE HOSTS (
     host_id NUMBER,
     host_name STRING,
     host_since DATE,
@@ -8,7 +8,7 @@ CREATE OR REPLACE TABLE HOST (
     PRIMARY KEY (host_id)
 );
 
-CREATE OR REPLACE TABLE LISTING (
+CREATE OR REPLACE TABLE LISTINGS (
     listing_id NUMBER,
     property_type STRING,
     room_type STRING,
