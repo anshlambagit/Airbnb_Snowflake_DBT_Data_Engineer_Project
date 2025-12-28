@@ -123,16 +123,13 @@ AWS_DBT_Snowflake/
 
 ### Prerequisites
 
-1. **Snowflake Account**
-   - Active Snowflake account with ACCOUNTADMIN role
-   - Warehouse: `COMPUTE_WH`
-   - Database: `AIRBNB`
+1. **Snowflake Account (will create one if doesn't exist)**
 
 2. **Python Environment**
    - Python 3.12 or higher
    - pip or uv package manager
 
-3. **AWS Account** (for S3 storage)
+3. **AWS Account (will create one if doesn't exist) ** (for S3 storage)
 
 ### Installation
 
